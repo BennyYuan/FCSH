@@ -21,7 +21,7 @@ Tensorflow implementation for FCSH
   git clone --recursive https://github.com/BennyYuan/FCSH.git
   ```
 
-2. Download the Inception V3 checkpoint:
+2. Download the VGG 16 checkpoint:
   ```Shell  
   mkdir -vp /home/${user}/work/data/checkpoints
   cd /home/${user}/work/data/checkpoints
