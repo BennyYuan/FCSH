@@ -6,4 +6,4 @@ Tensorflow implementation for FCSH
 
 - please run several times and take the average (as the result is a little bit unstable)
 
-- you can download the [ImageNet](https://github.com/thuml/HashNet/tree/master/caffe) and [cifar-10](http://www.cs.toronto.edu/~kriz/cifar.html) dataset  and please extract the file in ./data/imagenet
+- you can download the [ImageNet](https://github.com/thuml/HashNet/tree/master/caffe) and [cifar-10](http://www.cs.toronto.edu/~kriz/cifar.html) dataset  and please extract the file in /home/${user}/work/data/${dataset_name}
