@@ -22,28 +22,28 @@ Tensorflow implementation for FCSH
   ```
 
 2. Download the Inception V3 checkpoint:
-    ```Shell
-    mkdir -vp /home/${user}/work/data/checkpoints
-    cd /home/${user}/work/data/checkpoints
-    wget http://download.tensorflow.org/models/vgg_16_2016_08_28.tar.gz
-    tar -xvf vgg_16_2016_08_28.tar.gz
-    rm vgg_16_2016_08_28.tar.gz
-    ```
+  ```Shell  
+  mkdir -vp /home/${user}/work/data/checkpoints
+  cd /home/${user}/work/data/checkpoints
+  wget http://download.tensorflow.org/models/vgg_16_2016_08_28.tar.gz
+  tar -xvf vgg_16_2016_08_28.tar.gz
+  rm vgg_16_2016_08_28.tar.gz
+  ```
     
 3. Download the dataset:
-    ```Shell
-    mkdir -vp /home/${user}/work/data/cifar10
-    cd /home/${user}/work/data/cifar10
-    wget http://www.cs.toronto.edu/~kriz/cifar.html
-    ```
+  ```Shell
+  mkdir -vp /home/${user}/work/data/cifar10
+  cd /home/${user}/work/data/cifar10
+  wget http://www.cs.toronto.edu/~kriz/cifar.html
+  ```
    
        
 4. Running model:
-    ```Shell
-    mkdir -vp /home/${user}/work/data/cifar10
-    cd /home/${user}/work/${your_name}/FCSH/sh
-    ./cifar10_hash_bit16_on_vgg_16.sh
-    ```
+  ```Shell
+  mkdir -vp /home/${user}/work/data/cifar10
+  cd /home/${user}/work/${your_name}/FCSH/sh
+  ./cifar10_hash_bit16_on_vgg_16.sh
+  ```
     
 
 
