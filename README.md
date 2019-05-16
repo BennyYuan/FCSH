@@ -17,13 +17,13 @@ Tensorflow implementation for FCSH
 1. Clone the FCSH repository
   ```Shell
   # Make sure to clone with --recursive
-  mkdir /home/${user}/work/${your_name}/FCSH
+  mkdir -vp /home/${user}/work/${your_name}/FCSH
   git clone --recursive https://github.com/BennyYuan/FCSH.git
   ```
 
 2. Download the Inception V3 checkpoint:
     ```Shell
-    mkdir /home/${user}/work/data/checkpoints
+    mkdir -vp /home/${user}/work/data/checkpoints
     cd /home/${user}/work/data/checkpoints
     wget http://download.tensorflow.org/models/vgg_16_2016_08_28.tar.gz
     tar -xvf vgg_16_2016_08_28.tar.gz
@@ -32,7 +32,7 @@ Tensorflow implementation for FCSH
     
 3. Download the dataset:
     ```Shell
-    mkdir /home/${user}/work/data/cifar10
+    mkdir -vp /home/${user}/work/data/cifar10
     cd /home/${user}/work/data/cifar10
     wget http://www.cs.toronto.edu/~kriz/cifar.html
     ```
@@ -40,7 +40,7 @@ Tensorflow implementation for FCSH
        
 4. Running model:
     ```Shell
-    mkdir /home/${user}/work/data/cifar10
+    mkdir -vp /home/${user}/work/data/cifar10
     cd /home/${user}/work/${your_name}/FCSH/sh
     ./cifar10_hash_bit16_on_vgg_16.sh
     ```
