@@ -1,5 +1,5 @@
-# FCSH No.1 
-Deep Learning to Full-Convolution Semantic Hash Algorithm
+# FCSH 
+No.1 Deep Learning to Full-Convolution Semantic Hash Algorithm
 
 Tensorflow implementation for FCSH
 - running environment: Tensorflow 1.8.0 and python 3.6.3
