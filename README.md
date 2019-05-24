@@ -32,17 +32,17 @@ Tensorflow implementation for FCSH
     
 3. Download the dataset:
   ```Shell
-  mkdir -vp /home/${user}/work/data/cifar10
-  cd /home/${user}/work/data/cifar10
+  mkdir -vp /home/${user}/work/data/imagenet
+  cd /home/${user}/work/data/imagenet
   wget http://www.cs.toronto.edu/~kriz/cifar.html
   ```
    
        
 4. Running model:
   ```Shell
-  mkdir -vp /home/${user}/work/data/cifar10
+  mkdir -vp /home/${user}/work/data/imagenet
   cd /home/${user}/work/${your_name}/FCSH/sh
-  ./cifar10_hash_bit16_on_vgg_16.sh
+  ./imagenet_hash_bit16_on_vgg_16.sh
   ```
     
 
