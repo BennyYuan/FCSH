@@ -34,7 +34,7 @@ Tensorflow implementation for FCSH
   ```Shell
   mkdir -vp /home/${user}/work/data/imagenet
   cd /home/${user}/work/data/imagenet
-  wget http://www.cs.toronto.edu/~kriz/cifar.html
+  wget https://doc-0s-58-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/uf7m1j35i4rc7rulogl7pv434a0qaufl/1558677600000/12395945583166097872/*/0B7IzDz-4yH_HSmpjSTlFeUlSS00?e=download
   ```
    
        
